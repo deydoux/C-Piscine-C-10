@@ -6,7 +6,7 @@
 /*   By: deydoux <deydoux@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/22 15:11:26 by deydoux           #+#    #+#             */
-/*   Updated: 2023/07/22 16:08:29 by deydoux          ###   ########.fr       */
+/*   Updated: 2023/07/22 16:24:59 by deydoux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ int	main(int argc, char **argv)
 		return (ft_putstr("Too many arguments.\n"));
 	file = open(argv[1], O_RDONLY);
 	if (file == -1)
-		return (ft_putstr("Connot read file.\n"));
+		return (ft_putstr("Cannot read file.\n"));
 	result = read(file, str, 1);
 	while (result)
 	{
@@ -45,5 +45,5 @@ int	main(int argc, char **argv)
 	}
 	result = close(file);
 	if (result == -1)
-		return (ft_putstr("Connot read file.\n"));
+		return (ft_putstr("Cannot read file.\n"));
 }
