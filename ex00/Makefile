@@ -1,5 +1,6 @@
 NAME=ft_display_file
-SOURCES=ft_display_file.c
+SOURCES=srcs/ft_display_file.c \
+		srcs/ft_putstr.c
 CC=gcc
 CFLAGS=-Wall -Wextra -Werror
 OBJECTS=$(SOURCES:.c=.o)
