@@ -1,8 +1,8 @@
 NAME=ft_cat
 SOURCES=srcs/ft_cat.c \
 		srcs/ft_putstr.c \
-		srcs/put_error.c \
-		srcs/read_fd.c
+		srcs/print_file.c \
+		srcs/put_error.c
 CC=gcc
 CFLAGS=-Wall -Wextra -Werror
 OBJECTS=$(SOURCES:.c=.o)
