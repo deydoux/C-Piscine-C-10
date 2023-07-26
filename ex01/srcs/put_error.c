@@ -6,7 +6,7 @@
 /*   By: deydoux <deydoux@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/25 14:40:02 by deydoux           #+#    #+#             */
-/*   Updated: 2023/07/25 18:22:40 by deydoux          ###   ########.fr       */
+/*   Updated: 2023/07/26 09:58:31 by deydoux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,10 @@
 
 void	ft_putstr(char *str);
 
-int	put_error(char *filename)
+int	put_error(char *filename, char *program_name)
 {
-	ft_putstr("cat: ");
+	ft_putstr(program_name);
+	ft_putstr(": ");
 	ft_putstr(filename);
 	ft_putstr(": ");
 	ft_putstr(strerror(errno));
