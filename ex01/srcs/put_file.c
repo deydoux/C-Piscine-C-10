@@ -6,7 +6,7 @@
 /*   By: deydoux <deydoux@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/25 17:57:43 by deydoux           #+#    #+#             */
-/*   Updated: 2023/07/26 09:04:32 by deydoux          ###   ########.fr       */
+/*   Updated: 2023/07/26 09:23:23 by deydoux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 #include <unistd.h>
 
 int		put_error(char *filename);
-void	ft_putstr(char *str);
 
 int	put_file(char *filename)
 {
