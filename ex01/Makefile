@@ -1,6 +1,5 @@
 NAME=ft_cat
 SOURCES=srcs/ft_cat.c \
-		srcs/ft_putstr.c \
 		srcs/put_error.c \
 		srcs/put_file.c
 CC=gcc
